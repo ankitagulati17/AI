@@ -1,0 +1,181 @@
+
+body{
+     padding-left: 350px;
+	 padding-right: 350px;
+      background-image: url(https://wallpaperaccess.com/full/1398313.jpg);
+	 background-color: #1E2339; */
+     opacity: 0.02;
+     background-size: cover;
+	 background-attachment: fixed;
+	 color: #fff;
+	 background-blend-mode: multiply;
+	 font-size: 1.1em;
+	 font-family: 'poppins' , sans-serif;
+	 
+	 
+}
+
+@media (max-width: 768px) {
+	body{
+		padding-left: 10px;
+	padding-right: 10px;
+}}
+.heading{
+	     text-align: center;
+		 width: 100%;
+		 margin: auto;
+		 margin-top: 50px;
+}
+#head{
+	font-size: 1.8em;
+}
+#subheading{
+     font-size: 18px;
+     margin-top: 10px;
+}
+
+.button-56 {
+  align-items: center;
+  display: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: center;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+	margin-top: 20px;
+    position: absolute;
+    top: 50%;
+  background-color: #00;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 10px 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  width: 400px;
+}
+
+.button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
+.button:active {
+  background-color: #00;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 40px;
+  }
+}
+
+.imagehead {
+	border-radius: 100px;
+	text-align: center;
+}
+
+.smalltext {
+	     text-align: center;
+		 width: 100%;
+		 margin: auto;
+		 margin-top: 10px;
+}
+
+.sbt {
+	     text-align: left;
+		 width: 100%;
+		 margin: auto;
+		 margin-top: 50px;
+		 line-height: 20px;
+}
+
+.headerlogo {
+	
+       text-align: center;
+            }
